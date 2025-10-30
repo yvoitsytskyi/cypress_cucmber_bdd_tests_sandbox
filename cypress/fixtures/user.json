@@ -1,0 +1,12 @@
+{
+  "VALID USER": {
+    "name": "username",
+    "password": "password",
+    "email": "hello@cypress.io"
+  },
+  "INVALID USER": {
+    "name": "invalid username",
+    "password": "invalid password",
+    "email": "1hello@cypress.io"
+  }
+}
