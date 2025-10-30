@@ -15,6 +15,8 @@
   "author": "Yevhen Voitsytskyi",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.1",
     "cypress": "^15.5.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "prettier-plugin-gherkin": "^3.1.3"
