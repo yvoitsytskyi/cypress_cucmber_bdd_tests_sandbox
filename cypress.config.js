@@ -6,6 +6,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       on("file:preprocessor", cucumber());
     },
-    specPattern: "cypress/specs/*.feature"
-  }
+    specPattern: "cypress/specs/*.feature",
+  },
+  viewportWidth: 1280,
+  viewportHeight: 720,
 });
